@@ -1,0 +1,93 @@
+.nav-link {
+    text-decoration: none;  /* Menghilangkan garis bawah */
+    color: inherit;         /* Menggunakan warna yang sama dengan teks lainnya */
+    display: flex;          /* Mempertahankan layout flex */
+    align-items: center;    /* Mempertahankan alignment */
+    gap: 12px;             /* Jarak antara icon dan teks */
+    width: 100%;           /* Memastikan link mengambil lebar penuh */
+}
+
+/* Update styling untuk nav-item jika diperlukan */
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+//nav item
+.nav-item span {
+    color: #8B8B8B;
+    text-decoration: none;
+}
+
+.nav-item i {
+    color: #8B8B8B;
+    width: 20px; /* Lebar tetap untuk icon */
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.logo-header h1 {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    padding-left: 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.logo-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo .nexus-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-section {
+    display: none;
+}
+
+#imageSidebar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#usernameSidebar {
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+} 
+.logo-header h1 {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    position: static;
+    top: auto;
+}
